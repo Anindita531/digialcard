@@ -85,15 +85,19 @@ border-left: 6px solid #debffc;
 .q1{
 animation-delay: 4s;color:red;border-left: 5px solid #c88fac;
 }
-@media{
-heigh:600px;
-width :400px;
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+    font-size: 16px;
+    background-color: lightyellow;
+  }
 }
 footer{
   padding-bottom :   130px;
 color :white;
 text-align:center;
 background-color:#0f000f; 
+
 
 
 }
